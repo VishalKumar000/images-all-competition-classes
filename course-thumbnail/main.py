@@ -22,3 +22,18 @@ for filename in os.listdir('.'):
             print(f"Converted and compressed {filename} -> {webp_path}")
         except Exception as e:
             print(f"Error processing {filename}: {e}")
+
+
+# import os
+
+# # Define which extensions you want to delete
+# extensions_to_delete = ('.png', '.jpg', '.jpeg')
+
+# # Loop through all files in the current directory
+# for filename in os.listdir('.'):
+#     if filename.lower().endswith(extensions_to_delete):
+#         try:
+#             os.remove(filename)
+#             print(f"Deleted {filename}")
+#         except Exception as e:
+#             print(f"Error deleting {filename}: {e}")
